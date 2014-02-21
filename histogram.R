@@ -1,2 +1,2 @@
 x <- rnorm(1000)
-hist(x)
+hist(x, freq = FALSE, main = "Awesome Histogram")
