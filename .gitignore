@@ -1,6 +1,7 @@
 
-# This file tell git which files it should ignore when tracking changes to the project folder.
+# This file tells git which files it should ignore when tracking changes to the project folder.
 
+# Ignore all files that match the following patterns:
 *~
 *.Rout
 *.RData
