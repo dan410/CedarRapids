@@ -1,5 +1,5 @@
 
-# Ignore files that match the following patterns
+# This file tell git which files it should ignore when tracking changes to the project folder.
 
 *~
 *.Rout
