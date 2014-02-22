@@ -1,0 +1,6 @@
+
+# Ignore files that match the following patterns
+
+*~
+*.Rout
+*.RData
