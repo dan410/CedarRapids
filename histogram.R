@@ -1,3 +1,6 @@
+##########
+# Create histograms of various distributions
+##########
 
 # Normal Distribution
 x <- rnorm(100)
