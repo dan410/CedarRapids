@@ -5,3 +5,4 @@
 *~
 *.Rout
 *.RData
+.Rapp.history
