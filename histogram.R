@@ -1,14 +1,19 @@
 
+library(ggplot2)
+
 # Normal Distribution
 x <- rnorm(100)
-print(x)
-pdf("normal-hist.pdf")
-hist(x, freq = FALSE, main = "Normal Distribution")
-dev.off()
+dat <- data.frame(x=x)
+
+gg <- ggplot(dat, aes(x=x)) 
+gg + geom_histogram(aes(y = ..density..))+
+	 ggtitle("Normal Distribution")
+ggsave("gg-normal-hist.pdf")
 
 # Uniform Distribution
 x <- runif(100)
-print(x)
-pdf("uniform-hist.pdf")
-hist(x, freq = FALSE, main = "Uniform Distribution")
-dev.off()
+dat <- data.frame(x=x)
+gg <- ggplot(dat, aes(x=x)) 
+gg + geom_histogram(aes(y = ..density..))+
+	 ggtitle("Uniform Distribution")
+ggsave(file = "gg-uniform-hist.pdf")
