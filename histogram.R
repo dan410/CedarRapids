@@ -2,6 +2,8 @@
 # Create histograms of various distributions
 ##########
 
+#I'm forking this project.
+
 # Normal Distribution
 x <- rnorm(100)
 print(x)
@@ -15,3 +17,5 @@ print(x)
 png("uniform-hist.png")
 hist(x, freq = FALSE, main = "Uniform Distribution", xlab = "values")
 dev.off()
+
+
