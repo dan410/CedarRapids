@@ -5,13 +5,13 @@
 # Normal Distribution
 x <- rnorm(100)
 print(x)
-pdf("normal-hist.pdf")
+png("normal-hist.png")
 hist(x, freq = FALSE, main = "Normal Distribution", xlab = "values")
 dev.off()
 
 # Uniform Distribution
 x <- runif(100)
 print(x)
-pdf("uniform-hist.pdf")
+png("uniform-hist.png")
 hist(x, freq = FALSE, main = "Uniform Distribution", xlab = "values")
 dev.off()
