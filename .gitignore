@@ -6,3 +6,5 @@
 *.Rout
 *.RData
 .Rapp.history
+.Rproj.user
+*.Rproj
